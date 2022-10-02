@@ -1,0 +1,13 @@
+{{#if mensajes.length}}
+			{{#each mensajes}}
+			<div>
+					<b style="color:blue;">{{this.author.email}}</b>
+					[<span style="color:brown;">{{this.fechahora}}</span>] :
+					<i style="color:green;">{{this.text}}</i>
+			</div>
+			{{/each}}
+{{else}}
+<h3 class="alert alert-warning">No hay mensajes</h3>
+{{/if}}
+
+

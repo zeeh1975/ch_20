@@ -1,0 +1,6 @@
+node_modules/
+.env
+logs/*
+!logs
+Clase 39 - Arquitectura del servidor_ Diseño.lnk
+Clase 40 - Arquitectura del servidor_ Persistencia.lnk
